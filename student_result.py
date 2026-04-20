@@ -11,7 +11,7 @@ while True:
     # add student 
     if choice == "1":
         name = input("Enter Students name:")
-        marks = int(input("Enter marks:"))  # fixed: use int, not marks()
+        marks = int(input("Enter marks:"))
         student[name] = marks
         print(f"{name} successfully added!")
     elif choice == "2":
